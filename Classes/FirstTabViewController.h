@@ -11,10 +11,10 @@
 
 @interface FirstTabViewController : UITableViewController {
 	
-	NSArray *friends;
+	NSArray *objects;
 
 }
 
-@property (nonatomic, retain) NSArray *friends;
+@property (nonatomic, retain) NSArray *objects;
 
 @end

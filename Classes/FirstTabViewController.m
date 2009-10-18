@@ -10,7 +10,7 @@
 
 
 @implementation FirstTabViewController
-@synthesize friends;
+@synthesize objects;
 
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -31,7 +31,7 @@
 	NSArray *array = [[NSArray alloc] initWithObjects:@"Tree", @"Dog", @"Fish", @"Car", @"Grass", @"Shop", 
 					  @"Sky", @"Driver", @"Tar", @"Ant", @"Trail", @"Coffee", @"Cup", @"People", nil];
 	
-	self.friends = array;
+	self.objects = array;
 	
 	[array release];
 	
@@ -78,7 +78,7 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
-	self.friends = nil;
+	self.objects = nil;
 }
 
 
@@ -91,7 +91,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [friends count];
+    return [objects count];
 }
 
 
@@ -109,7 +109,7 @@
     }
     
     // Set up the cell...
-	cell.textLabel.text = [friends objectAtIndex:row];
+	cell.textLabel.text = [objects objectAtIndex:row];
     return cell;
 }
 
@@ -163,7 +163,7 @@
 
 
 - (void)dealloc {
-	[friends release];
+	[objects release];
     [super dealloc];
 }
 

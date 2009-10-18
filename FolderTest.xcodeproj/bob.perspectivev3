@@ -329,14 +329,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C4FF21BF108BA58100FE6F99</string>
+										<string>C4FF21C6108BD13700FE6F99</string>
 										<key>history</key>
 										<array>
 											<string>C4FF219B108B802400FE6F99</string>
 											<string>C4FF219C108B802400FE6F99</string>
 											<string>C4FF21BC108BA58100FE6F99</string>
-											<string>C4FF21BD108BA58100FE6F99</string>
-											<string>C4FF21BE108BA58100FE6F99</string>
+											<string>C4FF21C4108BD13700FE6F99</string>
+											<string>C4FF21C5108BD13700FE6F99</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -654,6 +654,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C4FF21C8108BD13700FE6F99</string>
 		<string>/Users/bob/Documents/DUMP/FolderTest/FolderTest.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1442,33 +1443,40 @@
 			<string>597 125 616 374 0 0 1280 1002 </string>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.refactoring</string>
 			<key>IncludeInToolsMenu</key>
 			<integer>0</integer>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<integer>1</integer>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>C4FF21C7108BD13700FE6F99</string>
+							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>{{0, 0}, {500, 315}}</string>
 								<key>RubberWindowFrame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>61 488 500 356 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCRefactoringModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>315pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>315pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1477,8 +1485,20 @@
 			<array>
 				<string>XCRefactoringModule</string>
 			</array>
+			<key>StatusbarIsVisible</key>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>C4FF21C8108BD13700FE6F99</string>
+				<string>C4FF21C9108BD13800FE6F99</string>
+				<string>C4FF21C7108BD13700FE6F99</string>
+			</array>
 			<key>WindowString</key>
-			<string>200 200 500 356 0 0 1920 1200 </string>
+			<string>61 488 500 356 0 0 1440 878 </string>
+			<key>WindowToolGUID</key>
+			<string>C4FF21C8108BD13700FE6F99</string>
+			<key>WindowToolIsVisible</key>
+			<false/>
 		</dict>
 	</array>
 </dict>

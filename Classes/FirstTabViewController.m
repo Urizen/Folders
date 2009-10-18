@@ -28,7 +28,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 	
-	NSArray *array = [[NSArray alloc] initWithObjects:@"Tree", @"Dog", @"Fish", @"Car", @"Grass", @"Shop", @"Sky", @"Driver", @"Tar", @"Ant", @"Trail", nil];
+	NSArray *array = [[NSArray alloc] initWithObjects:@"Tree", @"Dog", @"Fish", @"Car", @"Grass", @"Shop", 
+					  @"Sky", @"Driver", @"Tar", @"Ant", @"Trail", @"Coffee", @"Cup", @"People", nil];
 	
 	self.friends = array;
 	

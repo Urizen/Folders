@@ -68,6 +68,10 @@
 			C4FF21AF108B829300FE6F99 /* PBXTextBookmark */ = C4FF21AF108B829300FE6F99 /* PBXTextBookmark */;
 			C4FF21B0108B829300FE6F99 /* PBXTextBookmark */ = C4FF21B0108B829300FE6F99 /* PBXTextBookmark */;
 			C4FF21B3108B831500FE6F99 /* PBXTextBookmark */ = C4FF21B3108B831500FE6F99 /* PBXTextBookmark */;
+			C4FF21BC108BA58100FE6F99 /* PBXTextBookmark */ = C4FF21BC108BA58100FE6F99 /* PBXTextBookmark */;
+			C4FF21BD108BA58100FE6F99 /* PBXTextBookmark */ = C4FF21BD108BA58100FE6F99 /* PBXTextBookmark */;
+			C4FF21BE108BA58100FE6F99 /* PBXTextBookmark */ = C4FF21BE108BA58100FE6F99 /* PBXTextBookmark */;
+			C4FF21BF108BA58100FE6F99 /* PBXTextBookmark */ = C4FF21BF108BA58100FE6F99 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C4FF2187108639A400FE6F99 /* Source Control */;
 		userBuildSettings = {
@@ -124,9 +128,9 @@
 	};
 	C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1111, 2275}}";
-			sepNavSelRange = "{2036, 0}";
-			sepNavVisRange = "{1225, 1044}";
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 2379}}";
+			sepNavSelRange = "{945, 0}";
+			sepNavVisRange = "{154, 938}";
 		};
 	};
 	C4FF219B108B802400FE6F99 /* PBXTextBookmark */ = {
@@ -204,7 +208,7 @@
 		fRef = C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */;
 		name = "FirstTabViewController.m: 87";
 		rLen = 0;
-		rLoc = 2036;
+		rLoc = 2074;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 1925;
@@ -214,9 +218,56 @@
 		fRef = C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */;
 		name = "FirstTabViewController.m: 87";
 		rLen = 0;
-		rLoc = 2036;
+		rLoc = 2074;
 		rType = 0;
 		vrLen = 1305;
 		vrLoc = 1925;
+	};
+	C4FF21B8108B91EE00FE6F99 /* .gitignore */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 521}}";
+			sepNavSelRange = "{22, 0}";
+			sepNavVisRange = "{0, 66}";
+		};
+	};
+	C4FF21BC108BA58100FE6F99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FF21B8108B91EE00FE6F99 /* .gitignore */;
+		name = ".gitignore: 4";
+		rLen = 0;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 66;
+		vrLoc = 0;
+	};
+	C4FF21BD108BA58100FE6F99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FF2193108B7F7F00FE6F99 /* FirstTabViewController.h */;
+		name = "FirstTabViewController.h: 18";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	C4FF21BE108BA58100FE6F99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */;
+		name = "FirstTabViewController.m: 87";
+		rLen = 0;
+		rLoc = 2074;
+		rType = 0;
+		vrLen = 1044;
+		vrLoc = 1225;
+	};
+	C4FF21BF108BA58100FE6F99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */;
+		name = "FirstTabViewController.m: 32";
+		rLen = 0;
+		rLoc = 945;
+		rType = 0;
+		vrLen = 938;
+		vrLoc = 154;
 	};
 }

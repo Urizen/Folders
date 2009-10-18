@@ -1,0 +1,13 @@
+
+# xcode noise 
+
+build
+ 
+*.nib
+
+
+# osx noise
+ 
+.DS_Store
+
+profile 

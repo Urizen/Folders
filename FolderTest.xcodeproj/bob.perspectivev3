@@ -329,14 +329,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C4FF21C6108BD13700FE6F99</string>
+										<string>C4615901108C81A300587FC3</string>
 										<key>history</key>
 										<array>
 											<string>C4FF219B108B802400FE6F99</string>
 											<string>C4FF219C108B802400FE6F99</string>
 											<string>C4FF21BC108BA58100FE6F99</string>
 											<string>C4FF21C4108BD13700FE6F99</string>
-											<string>C4FF21C5108BD13700FE6F99</string>
+											<string>C4FF21D8108C7FCC00FE6F99</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,18 +350,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1171, 553}}</string>
+								<string>{{0, 0}, {1171, 548}}</string>
 								<key>RubberWindowFrame</key>
 								<string>40 103 1378 764 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>553pt</string>
+							<string>548pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>165pt</string>
+							<string>170pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -375,7 +375,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1171, 138}}</string>
+										<string>{{10, 27}, {1171, 143}}</string>
 										<key>RubberWindowFrame</key>
 										<string>40 103 1378 764 0 0 1440 878 </string>
 									</dict>
@@ -459,11 +459,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C4FF21A0108B802400FE6F99</string>
+				<string>C4615902108C81A300587FC3</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>C4FF21A1108B802400FE6F99</string>
+				<string>C4615903108C81A300587FC3</string>
 				<string>C4FF2199108B802400FE6F99</string>
-				<string>C4FF21A2108B802400FE6F99</string>
+				<string>C4615904108C81A300587FC3</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -613,14 +613,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C4FF21A3108B802400FE6F99</string>
+				<string>C4615905108C81A300587FC3</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>C4FF21A4108B802400FE6F99</string>
-				<string>C4FF21A5108B802400FE6F99</string>
-				<string>C4FF21A6108B802400FE6F99</string>
-				<string>C4FF21A7108B802400FE6F99</string>
-				<string>C4FF21A8108B802400FE6F99</string>
+				<string>C4615906108C81A300587FC3</string>
+				<string>C4615907108C81A300587FC3</string>
+				<string>C4615908108C81A300587FC3</string>
+				<string>C4615909108C81A300587FC3</string>
+				<string>C461590A108C81A300587FC3</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -654,7 +654,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C4FF21C8108BD13700FE6F99</string>
 		<string>/Users/bob/Documents/DUMP/FolderTest/FolderTest.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

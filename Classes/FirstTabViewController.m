@@ -7,6 +7,7 @@
 //
 
 #import "FirstTabViewController.h"
+#import	"ObjectViewController.h"
 
 
 @implementation FirstTabViewController
@@ -26,7 +27,9 @@
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	self.title = @"Random Objects";
 	
 	NSArray *array = [[NSArray alloc] initWithObjects:@"Tree", @"Dog", @"Fish", @"Car", @"Grass", @"Shop", 
 					  @"Sky", @"Driver", @"Tar", @"Ant", @"Trail", @"Coffee", @"Cup", @"People", nil];
@@ -116,9 +119,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
+	
 	ObjectViewController *objectViewController = [[ObjectViewController alloc] initWithNibName:@"ObjectView" bundle:nil];
-	[self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	
+	NSUInteger row = [indexPath row];
+	
+	NSString *detailTitle = [[NSString alloc] initWithFormat:@"Detail for %@ object", [objects objectAtIndex:row]];
+	
+	objectViewController.title = detailTitle;
+	
+	[self.navigationController pushViewController:objectViewController animated:YES];
+	
+	[detailTitle release];
+	[objectViewController release];
 }
 
 

@@ -127,7 +127,7 @@
 	};
 	C461590C108CCC8000587FC3 /* ObjectViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1208, 769}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 566}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 240}";
 		};
@@ -158,6 +158,20 @@
 		rType = 0;
 		vrLen = 1516;
 		vrLoc = 2924;
+	};
+	C461593B108CF31C00587FC3 /* SecondTabViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 566}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	C461593C108CF31C00587FC3 /* SecondTabViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 767}}";
+			sepNavSelRange = "{620, 0}";
+			sepNavVisRange = "{191, 1260}";
+		};
 	};
 	C4FF217A1086399400FE6F99 /* FolderTest */ = {
 		isa = PBXExecutable;
@@ -203,7 +217,7 @@
 	};
 	C4FF2193108B7F7F00FE6F99 /* FirstTabViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1208, 769}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 566}}";
 			sepNavSelRange = "{312, 0}";
 			sepNavVisRange = "{0, 319}";
 		};

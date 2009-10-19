@@ -15,6 +15,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		C461590E108CCC8000587FC3 /* ObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C461590D108CCC8000587FC3 /* ObjectViewController.m */; };
 		C4615910108CCCA000587FC3 /* ObjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C461590F108CCCA000587FC3 /* ObjectView.xib */; };
+		C461593D108CF31C00587FC3 /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C461593C108CF31C00587FC3 /* SecondTabViewController.m */; };
+		C4615940108CF34B00587FC3 /* SecondTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C461593F108CF34B00587FC3 /* SecondTabView.xib */; };
 		C4FF2195108B7F7F00FE6F99 /* FirstTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */; };
 		C4FF21B9108B91EE00FE6F99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C4FF21B8108B91EE00FE6F99 /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -33,6 +35,9 @@
 		C461590C108CCC8000587FC3 /* ObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectViewController.h; sourceTree = "<group>"; };
 		C461590D108CCC8000587FC3 /* ObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectViewController.m; sourceTree = "<group>"; };
 		C461590F108CCCA000587FC3 /* ObjectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectView.xib; sourceTree = "<group>"; };
+		C461593B108CF31C00587FC3 /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
+		C461593C108CF31C00587FC3 /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
+		C461593F108CF34B00587FC3 /* SecondTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTabView.xib; sourceTree = "<group>"; };
 		C4FF2193108B7F7F00FE6F99 /* FirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabViewController.h; sourceTree = "<group>"; };
 		C4FF2194108B7F7F00FE6F99 /* FirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabViewController.m; sourceTree = "<group>"; };
 		C4FF21B8108B91EE00FE6F99 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -96,9 +101,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C461593E108CF33200587FC3 /* Second Tab */,
 				C4FF2196108B7F8900FE6F99 /* First Tab */,
-				C4FF218B108639E000FE6F99 /* Profile */,
-				C4FF218A108639D600FE6F99 /* Friends */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FolderTest-Info.plist */,
 			);
@@ -115,9 +119,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C461593E108CF33200587FC3 /* Second Tab */ = {
+			isa = PBXGroup;
+			children = (
+				C461593F108CF34B00587FC3 /* SecondTabView.xib */,
+			);
+			name = "Second Tab";
+			sourceTree = "<group>";
+		};
 		C4FF2186108639A400FE6F99 /* Second Tab */ = {
 			isa = PBXGroup;
 			children = (
+				C461593B108CF31C00587FC3 /* SecondTabViewController.h */,
+				C461593C108CF31C00587FC3 /* SecondTabViewController.m */,
 			);
 			name = "Second Tab";
 			sourceTree = "<group>";
@@ -131,20 +145,6 @@
 				C461590D108CCC8000587FC3 /* ObjectViewController.m */,
 			);
 			name = "First Tab";
-			sourceTree = "<group>";
-		};
-		C4FF218A108639D600FE6F99 /* Friends */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Friends;
-			sourceTree = "<group>";
-		};
-		C4FF218B108639E000FE6F99 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Profile;
 			sourceTree = "<group>";
 		};
 		C4FF2196108B7F8900FE6F99 /* First Tab */ = {
@@ -200,6 +200,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				C4FF21B9108B91EE00FE6F99 /* .gitignore in Resources */,
 				C4615910108CCCA000587FC3 /* ObjectView.xib in Resources */,
+				C4615940108CF34B00587FC3 /* SecondTabView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +215,7 @@
 				1D3623260D0F684500981E51 /* FolderTestAppDelegate.m in Sources */,
 				C4FF2195108B7F7F00FE6F99 /* FirstTabViewController.m in Sources */,
 				C461590E108CCC8000587FC3 /* ObjectViewController.m in Sources */,
+				C461593D108CF31C00587FC3 /* SecondTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

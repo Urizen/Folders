@@ -124,7 +124,7 @@
 	
 	NSUInteger row = [indexPath row];
 	
-	NSString *detailTitle = [[NSString alloc] initWithFormat:@"Detail for %@ object", [objects objectAtIndex:row]];
+	NSString *detailTitle = [[NSString alloc] initWithFormat:@"Detail for %@ Object", [objects objectAtIndex:row]];
 	
 	objectViewController.title = detailTitle;
 	
